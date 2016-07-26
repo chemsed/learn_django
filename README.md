@@ -25,8 +25,9 @@ Django notes
   README.md
 ```
 
-Todo
+TODO
 -----------
-* Start a blog app
-* Break up development, staging, testing and production settings
-* Create stubs for the models we'll need
+
+* [ ] Start a blog app
+* [ ] Break up development, staging, testing and production settings
+* [ ] Create stubs for the models we'll need
