@@ -35,3 +35,8 @@ Django notes
 **Start App**
 
 `python manage.py startapp polls`
+
+**Adding the secret key**
+
+* Create a file called `secrets.py` in the `blogging/blogging` folder
+* Add a line saying `SECRET_KEY = 'paste the secret key here'`
