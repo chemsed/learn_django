@@ -8,6 +8,13 @@ Requirements
 * It is using python3
 * [Requirements](requirements.txt)
 
+TODO
+-----------
+
+* [x] Start a blog app
+* [ ] Break up development, staging, testing and production settings
+* [ ] Create stubs for the models we'll need
+
 Django notes
 -----------
 
@@ -25,9 +32,6 @@ Django notes
   README.md
 ```
 
-TODO
------------
+**Start App**
 
-* [x] Start a blog app
-* [ ] Break up development, staging, testing and production settings
-* [ ] Create stubs for the models we'll need
+`python manage.py startapp polls`
