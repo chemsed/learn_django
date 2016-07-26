@@ -12,7 +12,7 @@ TODO
 -----------
 
 * [x] Start a blog app
-* [ ] Break up development, staging, testing and production settings
+* [x] Remove the secret_key from version control
 * [ ] Create stubs for the models we'll need
 
 Django notes
