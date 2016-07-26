@@ -24,3 +24,9 @@ Django notes
   LICENSE
   README.md
 ```
+
+Todo
+-----------
+* Start a blog app
+* Break up development, staging, testing and production settings
+* Create stubs for the models we'll need
