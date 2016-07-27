@@ -59,6 +59,7 @@ Django notes
   README.md
   requirements.txt
 ```
+
 ** Access to the website **
 In the command line, make sure you are in the learn_django directory, if you haven’t already, and run the following commands:
 
