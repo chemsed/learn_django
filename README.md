@@ -69,7 +69,6 @@ For now, you can access to these urls:
 	http://127.0.0.1:8000/polls/
 	http://127.0.0.1:8000/admin/ (, but there is no admin profile created yet)
 
-
 **Start App**
 
 	$ python manage.py startapp polls`
