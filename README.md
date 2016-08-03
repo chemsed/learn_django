@@ -7,6 +7,7 @@ Requirements
 
 * It is using python3
 * [Requirements](requirements.txt)
+* All commits must use UNIX (LF) line endings
 
 TODO
 -----------
@@ -57,13 +58,13 @@ Django notes
 	  tests.py
 	  urls.py
 	  views.py
-		
+
   LICENSE
   README.md
   requirements.txt
 ```
 
- Access to the website 
+ Access to the website
 -----------
 
 **Adding the secret key**
@@ -106,14 +107,14 @@ It created the blog and polls directory in the blogging directory.
 
 **Write views**
 
-Pages were created by modifying views.py in each directory. Then, access to the pages were created by modifying all the urls.py files in the project directory so the pages are mapped to an url. 
+Pages were created by modifying views.py in each directory. Then, access to the pages were created by modifying all the urls.py files in the project directory so the pages are mapped to an url.
 
 **Database**
 
 * The file models.py for the blog app was changed in purpose to set up the database layout: The kind of data that we want for the website was specified.
 * Run `python manage.py makemigrations blog` to create migrations for those changes
 
-Output: 
+Output:
 ```
 Migrations for 'blog':
   0001_initial.py:
@@ -123,7 +124,7 @@ Migrations for 'blog':
 ```
 * Run `python manage.py migrate` to apply those changes to the database.
 
-Output: 
+Output:
 ```
 Operations to perform:
   Apply all migrations: blog, admin, sessions, contenttypes, auth
