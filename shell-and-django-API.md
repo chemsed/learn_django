@@ -1,3 +1,5 @@
+**Adding and manipulating data**
+
 > /GitHub/learn_django/blogging
 
 `$ python manage.py shell`
@@ -33,7 +35,7 @@ Type "help", "copyright", "credits" or "license" for more information.
 
 `>> p.pub_date`
 
-datetime.datetime(2016, 8, 25, 15, 52, 15, 672130, tzinfo=<UTC>)
+datetime.datetime(2016, 8, 25, 15, 52, 15, 672130, tzinfo=\<UTC\>)
 
 ```
 >>> p.title="please stand by..."
