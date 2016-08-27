@@ -76,7 +76,7 @@ Django notes
 
 **Run website from the terminal**
 
-In the command line, make sure you are in the learn_django/blogging directory, if you haven’t already, and run the following commands:
+In the command line, make sure you are in the `learn_django/blogging` directory, if you haven’t already, and run the following commands:
 
 	$ python manage.py runserver
 
@@ -94,26 +94,29 @@ The way we create our website is by following the steps specified in the Django 
 
 **Creating a project**
 
-The website has a urls for each pages (the table of contents), a view (what is shown on the webpage) and models (the database layout) and a database (wish has all the data for the website). The websites can be make into small parts (applications). For now, the website project was created with the command in the command line:
-	$ django-admin startproject blogging
+The website has a urls for each pages (the table of contents), a view (what is shown on the webpage) and models (the database layout) and a database (wish has all the data for the website). The websites can be make into small parts (applications). For now, the website project was created with this command in the shell:
+	`$ django-admin startproject blogging`
 
 It created a blogging directory in the learn_django directory.
 
 **Creating the apps**
 
 Then, the blog and the polls apps were created with theses commands:
-	$ python manage.py startapp polls
-	$ python manage.py startapp blog
+
+```
+$ python manage.py startapp polls
+$ python manage.py startapp blog
+```
 
 It created the blog and polls directory in the blogging directory.
 
 **Write views**
 
-Pages were created by modifying views.py in each directory. Then, access to the pages were created by modifying all the urls.py files in the project directory so the pages are mapped to an url.
+Pages were created by modifying `views.py` in each directory. Then, access to the pages were created by modifying all the `urls.py` files in the project directory so the pages are mapped to an url.
 
 **Database part 1**
 
-* The file models.py for the blog app was changed in purpose to set up the database layout: The kind of data that we want for the website was specified.
+* The file `models.py` for the blog app was changed in purpose to set up the database layout: The kind of data that we want for the website was specified.
 * Run `python manage.py makemigrations blog` to create migrations for those changes
 
 Output:
