@@ -19,9 +19,10 @@ TODO
 * [x] Setup the database
 * [x] Creating models
 * [x] Activating models
-* [ ] Create stubs for the models we'll need
+* [x] Create stubs for the models we'll need
 * [ ] Create an admin user
 * [ ] Make the blog app modifiable in the admin
+* [ ] Write views
 
 Django notes
 -----------
@@ -61,6 +62,7 @@ Django notes
 
   LICENSE
   README.md
+  shell-and-django-API.md
   requirements.txt
 ```
 
@@ -74,7 +76,7 @@ Django notes
 
 **Run website from the terminal**
 
-In the command line, make sure you are in the learn_django directory, if you haven’t already, and run the following commands:
+In the command line, make sure you are in the learn_django/blogging directory, if you haven’t already, and run the following commands:
 
 	$ python manage.py runserver
 
@@ -88,7 +90,7 @@ For now, you can access to these urls:
  The making of the website
 -----------
 
-The way we create our website is by following the steps specified in the django tutorial as close as possible (https://docs.djangoproject.com/en/1.9/intro/tutorial01/)
+The way we create our website is by following the steps specified in the Django tutorial as close as possible (https://docs.djangoproject.com/en/1.9/intro/tutorial01/)
 
 **Creating a project**
 
@@ -109,7 +111,7 @@ It created the blog and polls directory in the blogging directory.
 
 Pages were created by modifying views.py in each directory. Then, access to the pages were created by modifying all the urls.py files in the project directory so the pages are mapped to an url.
 
-**Database**
+**Database part 1**
 
 * The file models.py for the blog app was changed in purpose to set up the database layout: The kind of data that we want for the website was specified.
 * Run `python manage.py makemigrations blog` to create migrations for those changes
@@ -132,3 +134,9 @@ Running migrations:
   Rendering model states... DONE
   Applying blog.0001_initial... OK
 ```
+**Database part 2**
+
+The Python Interactive Shell and the Django API was used to add and manipulate data in the database.
+All the commands and outputs are shown in the link below.
+
+[Add and manipulate data with the Django API and the Python Interactive Shell](shell-and-django-API.md)

@@ -12,12 +12,12 @@ class Post(models.Model):
     likes = models.IntegerField(default=0)
 
     def __str__(self):
-        return self.body
+        return self.title
 
 
 class Comment(models.Model):
     post = models.ForeignKey(Post, on_delete=models.CASCADE)
     comment_text = models.TextField()
     pub_date = models.DateTimeField("date published")
-        def __str__(self):
+    def __str__(self):
         return self.comment_text
